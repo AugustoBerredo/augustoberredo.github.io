@@ -179,4 +179,4 @@ Colunas criadas a partir dos dados:
 
 **Quantidade de dados: 203.883** 
 
-Tem alguma sugestão de melhoria ou encontrou algum bug? Deixe sua issue 😉
+Tem alguma sugestão de melhoria? Deixe sua issue 😉
