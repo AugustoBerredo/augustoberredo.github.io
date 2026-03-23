@@ -1,182 +1,117 @@
 # Portfólio Power BI 📊
 
-Dashboards elaborados com foco em estudos na ferramenta Power BI, visando construir um portfólio com cenários reais do dia a dia:
+Este repositório reúne dashboards desenvolvidos para estudo e prática da ferramenta Power BI, aplicados em cenários reais.  
+Cada projeto contém o arquivo `.pbix`, gifs ilustrativos e link para visualização interativa no Power BI Service.
 
-- [Dashboard Financeiro](https://github.com/AugustoBerredo/Portfolio-Power-BI/tree/main/Dashboard%20Financeiro)
-- [Dashboard de Logística - V1](https://github.com/AugustoBerredo/Portfolio-Power-BI/tree/main/Dashboard%20Log%C3%ADstica%20-%20V1)
-- [Dashboard de Logística - V2](https://github.com/AugustoBerredo/Portfolio-Power-BI/tree/main/Dashboard%20Log%C3%ADstica%20-%20V2)
-- [Dashboard de RH](https://github.com/AugustoBerredo/Intensivao-de-Power-BI/tree/main/Dashboard%20RH)
-- [Dashboard de Produção](https://github.com/AugustoBerredo/Intensivao-de-Power-BI/tree/main/Dashboard%20Produ%C3%A7%C3%A3o)
-- [Dashboard de Vendas](https://github.com/AugustoBerredo/Intensivao-de-Power-BI/tree/main/Dashboard%20Vendas)
+---
 
-### Dashboard Financeiro
+## 📈 Dashboard Financeiro
+![Financeiro](https://i.imgur.com/lZW7rfJ.gif)
 
-![Gif que exemplifica o funcionando do Dashboard Financeiro](https://i.imgur.com/lZW7rfJ.gif)
-
-Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiYjVlZDRlZDEtYzY4Yi00YTRmLWEwNmItOTI4OWJhNDU4YTVlIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9&pageName=ReportSection)
+**Objetivo:** Analisar movimentações financeiras, fluxo de caixa e comparativo de receitas e despesas.  
+**Base de dados:** 2.725 registros em Excel.  
+[🔗 Acesse o dashboard completo](https://app.powerbi.com/view?r=eyJrIjoiYjVlZDRlZDEtYzY4Yi00YTRmLWEwNmItOTI4OWJhNDU4YTVlIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9&pageName=ReportSection)
 
 #### Estrutura da base de dados
+| Coluna              | Descrição                  |
+|---------------------|----------------------------|
+| Número Movimentação | Identificador da transação |
+| Nome                | Cliente ou fornecedor      |
+| Município           | Local da operação          |
+| Valor Movimentação  | Montante em R$             |
+| Banco               | Instituição financeira     |
 
-Arquivo em excel que contém inicialmente as seguintes colunas:
-- Número Movimentação
-- Nome
-- Tipo Pessoa
-- Município
-- Data Movimentação
-- Valor da Movimentação
-- Tipo
-- Banco
-- Imagem
-- Forma Pagamento
+---
 
-Nenhuma nova coluna foi criada a partir dos dados.
+## 🚚 Dashboard de Logística - V1
+![Logística V1](https://i.imgur.com/ICBtVVR.gif)
 
-**Quantidade de dados: 2.725** 
-
-
-### Dashboard de Logística - V1
-
-![Gif que exemplifica o funcionando do dashboard de Logística](https://i.imgur.com/ICBtVVR.gif)
-
-Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiMDhhYTk1ZWMtMDBjZi00NzI0LTk2ZmUtNTQ2MWQ1MGZmZmEzIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9&pageName=ReportSection1cd0e1a90b7cb2308a4c)
+**Objetivo:** Monitorar entregas, veículos e status de pedidos.  
+**Base de dados:** 23.888 registros (CadastroVeiculos.xlsx + Fretes.xlsx).  
+[🔗 Acesse o dashboard completo](https://app.powerbi.com/view?r=eyJrIjoiMDhhYTk1ZWMtMDBjZi00NzI0LTk2ZmUtNTQ2MWQ1MGZmZmEzIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9&pageName=ReportSection1cd0e1a90b7cb2308a4c)
 
 #### Estrutura da base de dados
+| Coluna             | Descrição                  |
+|--------------------|----------------------------|
+| Código Veículo     | Identificador do veículo   |
+| Placa              | Placa registrada           |
+| Marca              | Fabricante                 |
+| Data Pedido        | Data do pedido             |
+| Valor Frete Líquido| Valor do frete             |
+| Status             | Situação da entrega        |
 
-Arquivo **CadastroVeiculos.xlsx** que contém inicialmente as seguintes colunas:
-- Código Veículo
-- Placa
-- Marca
-- Tipo Veículo
-- Baú
-- Ano
+---
 
-Nenhuma nova coluna foi criada a partir dos dados.
+## 🚚 Dashboard de Logística - V2
+![Logística V2](https://i.imgur.com/L9VI3fl.gif)
 
-Arquivo **Fretes.xlsx** que contém inicialmente as seguintes colunas:
-- Data Pedido
-- Data Previsão Entrega
-- Data Entrega
-- Cliente
-- idVeículo
-- Documento Fiscal
-- Peso (KG)
-- Peso (Cubado)
-- Valor da Mercadoria
-- Valor do Frete Líquido
-- Devolução
-- Status
-
-Colunas criadas a partir dos dados:
-- UF
-- Cidade
-- idCliente
-
-**Quantidade total dos dados: 23.888** 
-
-### Dashboard de Logística - V2
-
-![Gif que exemplifica o funcionando do dashboard Logística](https://i.imgur.com/L9VI3fl.gif)
-
-Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiZWEwODY1YTMtYWVlYi00NDkwLWFhOWItOTZhYmI4ZDk0OTVjIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9)
+**Objetivo:** Acompanhar pedidos, motoristas e devoluções.  
+**Base de dados:** 4.282 registros (DB_Logistica.xlsx).  
+[🔗 Acesse o dashboard completo](https://app.powerbi.com/view?r=eyJrIjoiZWEwODY1YTMtYWVlYi00NDkwLWFhOWItOTZhYmI4ZDk0OTVjIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9)
 
 #### Estrutura da base de dados
+| Coluna             | Descrição                  |
+|--------------------|----------------------------|
+| N° Pedido          | Identificador do pedido    |
+| Cliente-Motorista  | Relação cliente e motorista|
+| Data Entrega Prev. | Prazo previsto             |
+| Status             | Situação da entrega        |
+| Motivo Devolução   | Razão da devolução         |
 
-Arquivo **DB_Logistica.xlsx** que contém inicialmente as seguintes colunas:
-- N° Pedido
-- Cliente-Motorista
-- Data Emissão Pedido
-- Data Entrega Prevista
-- Destino
-- Item
-- R$ Farurado
-- Saída para Entrega
-- Data Entrega Real
-- Qtd Devolução
-- Mot. Devolução
-- Dias para entrega
-- Status
+---
 
-Colunas criadas a partir dos dados:
-- Cliente
-- Motorista
+## 👥 Dashboard de RH
+![RH](https://i.imgur.com/YUPUzbN.gif)
 
-**Quantidade total dos dados: 4.282** 
-
-### Dashboard de RH
-
-![Gif que exemplifica o funcionando do dashboard de RH](https://i.imgur.com/YUPUzbN.gif)
-
-Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiNzQ2NGQ3ZWMtZDk1ZC00NDAzLWJkNTMtYmMyZGVmODI4ZjlmIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9)
+**Objetivo:** Acompanhar dados de colaboradores, contratações e avaliações.  
+**Base de dados:** 234 registros em Excel.  
+[🔗 Acesse o dashboard completo](https://app.powerbi.com/view?r=eyJrIjoiNzQ2NGQ3ZWMtZDk1ZC00NDAzLWJkNTMtYmMyZGVmODI4ZjlmIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9)
 
 #### Estrutura da base de dados
+| Coluna           | Descrição                  |
+|------------------|----------------------------|
+| ID RH            | Identificador do colaborador|
+| Nome Completo    | Nome do funcionário        |
+| Cargo            | Função exercida            |
+| Salário          | Remuneração                |
+| Avaliação        | Nota de desempenho         |
 
-Arquivo em excel que contém inicialmente as seguintes colunas:
-- ID RH 
-- Nome Completo
-- Estado Civil
-- Gênero
-- Data de Nascimento
-- Endereço
-- Data de contratação
-- Data de demissão
-- Salário
-- Cargo
-- Área
-- Hora Extra
-- Avaliação
+---
 
-Colunas criadas a partir dos dados:
-- Ano
-- Cidade
+## 🏭 Dashboard de Produção
+![Produção](https://i.imgur.com/ma2ezFI.gif)
 
-**Quantidade de dados: 234** 
-
-### Dashboard de Produção
-
-![Gif que exemplifica o funcionando do dashboard de Produção](https://i.imgur.com/ma2ezFI.gif)
-
-Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiNGU3NGViNWUtZjM3MS00ODdhLWExMjMtOWY3NTAxZDJkM2QxIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9&pageName=ReportSection)
+**Objetivo:** Monitorar ordens de produção, rejeições e eficiência.  
+**Base de dados:** 31.617 registros em Excel.  
+[🔗 Acesse o dashboard completo](https://app.powerbi.com/view?r=eyJrIjoiNGU3NGViNWUtZjM3MS00ODdhLWExMjMtOWY3NTAxZDJkM2QxIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9&pageName=ReportSection)
 
 #### Estrutura da base de dados
+| Coluna              | Descrição                  |
+|---------------------|----------------------------|
+| Número Ordem        | Identificador da ordem     |
+| Produto             | Item produzido             |
+| Quantidade Produzida| Total produzido            |
+| Quantidade Rejeitada| Total rejeitado            |
+| Ocorrência          | Tipo de evento             |
 
-Arquivo em excel que contém inicialmente as seguintes colunas:
-- Número Ordem
-- Operador
-- Produto
-- Ocorrência
-- Início
-- Fim
-- Quantidade Produzida
-- Quantidade Rejeitada
+---
 
-Colunas criadas a partir dos dados:
-- Hora Início
-- Hora Fim
+## 🛒 Dashboard de Vendas
+![Vendas](https://i.imgur.com/19mRZpY.gif)
 
-**Quantidade de dados: 31617** 
-
-
-### Dashboard de Vendas
-
-![Gif que exemplifica o funcionando do Dashboard de Vendas](https://i.imgur.com/19mRZpY.gif)
-
-Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiODQyZmQwM2MtMGNkYS00ZDY2LTk1M2YtOTlmOThkY2I4YjIxIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9)
+**Objetivo:** Analisar vendas por categoria, cliente e região.  
+**Base de dados:** 203.883 registros em Excel.  
+[🔗 Acesse o dashboard completo](https://app.powerbi.com/view?r=eyJrIjoiODQyZmQwM2MtMGNkYS00ZDY2LTk1M2YtOTlmOThkY2I4YjIxIiwidCI6IjI5NjM1NGU5LTk1MmItNDgwNC05NDE0LTA3N2MzZmVjNTg5NSJ9)
 
 #### Estrutura da base de dados
+| Coluna           | Descrição                  |
+|------------------|----------------------------|
+| Categoria        | Tipo de produto            |
+| Marca            | Fabricante                 |
+| Quantidade Vendida| Volume de vendas           |
+| Localidade       | Cidade/Estado              |
+| Continente       | Região geográfica          |
 
-Arquivo em excel que contém inicialmente as seguintes colunas:
-- Categoria
-- Preco Unitário
-- Custo Unitário
-- Marca
-- Quantidade Vendida
-- Nome Cliente
-- Localidade
+---
 
-Colunas criadas a partir dos dados:
-- País
-- Continente
-
-**Quantidade de dados: 203.883** 
-
-Tem alguma sugestão de melhoria? Deixe sua issue 😉
+💡 **Sugestões de melhoria?** Abra uma issue 😉
